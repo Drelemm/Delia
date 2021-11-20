@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formular</title>
+<link href="../css/style_enlaces.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>Forumlarios en html</h1>
+	</header>
+<nav>
+		<ul>
+			<li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="enlaces.html">Enlaces</a></li>
+			<li><a href="imagenes.html">Imágenes</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="animación.html">Animación</a></li>
+			<li><a href="formularios.html">Formularios</a></li>
+			<li><a href="contenedores.html">Contenedores</a></li>
+			<li><a href="Media queries.html">Media queries</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h2>Inserción de formularios</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis iusto, quam vitae perferendis corporis dignissimos ut qui dolor mollitia voluptates tenetur quod rerum, amet quo. Quas, vel adipisci temporibus provident.</p>
+			<form>
+				<label>Nombre</label>
+				<input type="text" id="idname" name="nombre">
+				<input type="button" id="id boton" name="enviar" value="enviar">
+			</form>
+		</section>
+		<section>
+			<h2>Inserción de formulario con casillas de verificación</h2>
+			<p></p>
+			<form>
+				<label> ¿Cuáles son los géneros musicales que prefieres ?</label>
+				<input type="checkbox" id="generom1" name="generom1" value="Pop">
+				<label>Pop</label>
+				<input type="checkbox" id="generom2" name="generom2" value="Rock">
+				<label>rock</label>
+				<input type="checkbox" id="generom3" name="generom3" value="Jazz">
+				<label>Jazz</label>
+				<input type="checkbox" id="generom4" name="generom4" value="Alternativo">
+				<label>Alternativo</label>
+				<input type="button" id="boton2" name="enviar2" value="enviar">
+			</form>
+		</section>
+		<section>
+			<h2>Inserción de formulario con botones de radio</h2>
+			<form id="form 1" name="form1" method="get" action="action_page.html">
+			<label>Genero:</label>
+			<input type="radio" name="radio" id="radio" value="radio">
+            <label for="radio"> Femenino&nbsp; </label>
+            <input type="radio" name="radio" id="radio2" value="radio2">
+            <label for="radio2"> Masculino&nbsp; </label>
+            <input type="submit" name="submit1" id="submit1" value="Enviar">
+			</form>
+		</section>
+		<section>
+			<h2>Formulario de contacto</h2>
+			<form name="form2" method="get" action="action_page.html">
+			  contacto&nbsp;
+			<table width="50%" border="1">
+  				<tbody>
+					<tr>
+					  <td><label for="textfield">Nombre:</label></td>
+					  <td><input type="text" name="textfield" id="textfield"></td>
+					</tr>
+					<tr>
+					  <td><label for="email">Email:</label></td>
+					  <td><input type="email" name="email" id="email"></td>
+					</tr>
+					<tr>
+					  <td><label for="textarea">Comentarios:</label></td>
+					  <td><textarea name="textarea" id="textarea"></textarea></td>
+					</tr>
+				  </tbody>
+			</table>
+			<input type="submit" name="submit2" id="submit2" value="Enviar">
+			</form>
+		</section>
+		<section>
+			<h2>Formulario de Ingreso o Log in</h2>
+			<form name="form3" method="get" action="act page.html">
+				<label>Usuario:</label>
+				<input type="text">
+				<label>Contraseña:</label>
+				<input type="password">
+				<input type="submit" name="submit3" id="submit3" value="Enviar">
+			</form>
+		</section>
+	</main>
+	<footer>Elaborado por: Delia Espíndola Romero</footer>
+</body>
+</html>
